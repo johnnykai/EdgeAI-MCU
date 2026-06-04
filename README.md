@@ -30,6 +30,7 @@ AI 協同開發：將 WebServer_ControlLED.ino 原始碼提供給 Gemini 或 Cha
 
 
 項目四：視覺輔助智慧物體辨識系統（盲人無障礙優化）
+
 🌐 專案部署流程
 GitHub Pages 部署：將 app-visual_assistant 分叉（Fork）至個人帳號。
 
@@ -44,7 +45,9 @@ GitHub Pages 部署：將 app-visual_assistant 分叉（Fork）至個人帳號�
 
 
 項目五：紅外線測距與 TFT 螢幕即時顯示
+
 🔌 實作說明
+
 硬體設定：配置 wire1.begin() 啟用 I2C1 匯流排。
 
 驅動優化：修改 Realtek 硬體支援包中的 VL53L0X.cpp。
@@ -55,7 +58,9 @@ GitHub Pages 部署：將 app-visual_assistant 分叉（Fork）至個人帳號�
 
 
 項目六：MPU6050 陀螺儀姿態檢測
+
 📐 功能說明
+
 姿態解算：使用 MPU6050 感測器獲取朝向角。
 
 硬體加速：利用 DMP（數位運動處理器）計算目前與水平面的傾斜角度，並於序列埠監視器即時輸出。
@@ -64,7 +69,9 @@ GitHub Pages 部署：將 app-visual_assistant 分叉（Fork）至個人帳號�
 
 
 項目七：物聯網環境溫濕度即時監測
+
 💻 功能實作
+
 數據整合：修改 ReceiveData 範例，將 DHT11 數據嵌入 HTTP 網頁。
 
 遠端監測：手機瀏覽器連線至指定 IP，即可查看即時溫度（℃）與濕度（%）。
@@ -73,7 +80,9 @@ GitHub Pages 部署：將 app-visual_assistant 分叉（Fork）至個人帳號�
 
 
 項目八：生成式 AI 視覺輔助回收物分類系統
+
 ♻️ AI 智慧應用
+
 多模態互動：透過相機拍攝回收物，發送提示詞至 Gemini 進行語意分析。
 
 成果驗證：序列埠顯示辨識結果（如：膳魔師保溫瓶屬於金屬類回收物），並完成記憶體註冊與音訊儲存。
