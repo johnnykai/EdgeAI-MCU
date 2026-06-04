@@ -9,18 +9,24 @@ AI 協同開發：將 WebServer_ControlLED.ino 原始碼提供給 Gemini 或 Cha
 📊 成果展示
 手機螢幕顯示已成功連線至運行 WebServer_ControlLEDx2 之伺服器網頁，可獨立開關 LED B 與 LED G。
  ![alt text](image-8.png)
+
+
 項目二：Edge AI 語音助理與氣象查詢
 💡 功能說明
 系統配置：設定 Gemini API Key 並選擇繁體中文語系。
 
 智慧問答：系統即時串接氣象資訊，以結構化語音與文字回覆氣溫、濕度及今日天氣預報。例如查詢「基隆天氣」時，系統能提供詳細的氣象數據。
  ![alt text](image-7.png)
+
+
 項目三：YOLOv7 視訊串流物件偵測演示
 🧠 核心技術
 輕量化偵測：利用 YOLOv7 模型進行即時物件偵測，可辨識人（person）、車輛（car/bicycle/motorcycle/bus/truck）等目標。
 
 實測成果：結合 WebSocket Viewer 技術，在實驗室場域成功捕捉並框列出人員與設備。
  ![alt text](image-6.png)
+
+
 項目四：視覺輔助智慧物體辨識系統（盲人無障礙優化）
 🌐 專案部署流程
 GitHub Pages 部署：將 app-visual_assistant 分叉（Fork）至個人帳號。
@@ -32,6 +38,8 @@ GitHub Pages 部署：將 app-visual_assistant 分叉（Fork）至個人帳號�
 
 語音反饋：拍照辨識後，系統在 30 字內口語化朗讀物體名稱（如辨識出膳魔師保溫瓶並顯示「完成！」）。
   ![alt text](image-4.png)![alt text](image-5.png)
+
+
 項目五：紅外線測距與 TFT 螢幕即時顯示
 🔌 實作說明
 硬體設定：配置 wire1.begin() 啟用 I2C1 匯流排。
@@ -41,18 +49,23 @@ GitHub Pages 部署：將 app-visual_assistant 分叉（Fork）至個人帳號�
 數據呈現：於 TFT 螢幕精準顯示測量距離（單位：公分 cm）。
  ![alt text](image-3.png)
 
+
 項目六：MPU6050 陀螺儀姿態檢測
 📐 功能說明
 姿態解算：使用 MPU6050 感測器獲取朝向角。
 
 硬體加速：利用 DMP（數位運動處理器）計算目前與水平面的傾斜角度，並於序列埠監視器即時輸出。
  ![alt text](image-2.png)
+
+
 項目七：物聯網環境溫濕度即時監測
 💻 功能實作
 數據整合：修改 ReceiveData 範例，將 DHT11 數據嵌入 HTTP 網頁。
 
 遠端監測：手機瀏覽器連線至指定 IP，即可查看即時溫度（℃）與濕度（%）。
  ![alt text](image-1.png)
+
+
 項目八：生成式 AI 視覺輔助回收物分類系統
 ♻️ AI 智慧應用
 多模態互動：透過相機拍攝回收物，發送提示詞至 Gemini 進行語意分析。
